@@ -1,5 +1,6 @@
 "use client";
 
+import cursorYouImage from "@/assets/images/cursor-you.svg";
 import designExample1Image from "@/assets/images/design-example-1.png";
 import designExample2Image from "@/assets/images/design-example-2.png";
 import Button from "@/components/Button";
@@ -47,15 +48,25 @@ export default function Hero() {
     ]);
   }, []);
   return (
-    <section className="py-24 overflow-x-clip">
+    <section
+      className="py-24 overflow-x-clip"
+      style={{
+        cursor: `url(${cursorYouImage.src}), auto`,
+      }}
+    >
       <div className="container relative">
         {/* Design examples and Ponters */}
         <motion.div
           ref={leftDesignScope}
           initial={{ opacity: 0, y: 100, x: -100 }}
+          drag
           className="absolute -left-32 top-16 hidden lg:block"
         >
-          <Image src={designExample1Image} alt="Design Example 1" />
+          <Image
+            src={designExample1Image}
+            alt="Design Example 1"
+            draggable="false"
+          />
         </motion.div>
         <motion.div
           ref={leftPointerScope}
@@ -67,9 +78,14 @@ export default function Hero() {
         <motion.div
           ref={rightDesignScope}
           initial={{ opacity: 0, y: 100, x: 100 }}
+          drag
           className="absolute -right-64 -top-16 hidden lg:block"
         >
-          <Image src={designExample2Image} alt="Design Example 2" />
+          <Image
+            src={designExample2Image}
+            alt="Design Example 2"
+            draggable="false"
+          />
         </motion.div>
         <motion.div
           ref={rightPointerScope}
