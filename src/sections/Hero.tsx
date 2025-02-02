@@ -103,7 +103,7 @@ export default function Hero() {
         </div>
         {/* Content */}
         <h1 className="text-6xl md:text-7xl lg:text-8xl font-medium text-center mt-6">
-          Impactful design, created effortlessly
+          Impactful design, <br /> created effortlessly
         </h1>
         <p className="text-center text-xl text-white/50 mt-8 max-w-2xl mx-auto">
           Design tools shouldn't slow you down. Layers combines powerful
