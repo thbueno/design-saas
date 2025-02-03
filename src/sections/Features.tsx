@@ -99,26 +99,26 @@ export default function Features() {
             className="col-span-2 md:col-start-2 lg:col-span-1 lg:col-start-auto group"
           >
             <div className="aspect-video flex items-center justify-center gap-4">
-              <Key className="w-28 group-hover:outline-lime-400 outline outline-2 outline-offset-4">
+              <Key className="w-28 outline-transparent group-hover:outline-lime-400 outline outline-2 outline-offset-4 ransition-all duration-300 group-hover:translate-y-1">
                 Shift
               </Key>
-              <Key className="group-hover:outline-lime-400 outline outline-2 outline-offset-4">
+              <Key className="outline-transparent group-hover:outline-lime-400 outline outline-2 outline-offset-4 transition-all duration-300 group-hover:translate-y-1 delay-100">
                 alt
               </Key>
-              <Key className="group-hover:outline-lime-400 outline outline-2 outline-offset-4">
+              <Key className="outline-transparent group-hover:outline-lime-400 outline outline-2 outline-offset-4 ransition-all duration-300 group-hover:translate-y-1 delay-200">
                 C
               </Key>
             </div>
           </FeatureCard>
         </div>
         {/* tags Features */}
-        <div className="mt-8 gap-3 flex flex-wrap justify-center">
+        <div className="mt-8 gap-3 flex flex-wrap justify-center group">
           {features.map((feature) => (
             <div
-              className="bg-neutral-800 border-white/10 inline-flex px-3 md:px-5 py-1.5 md:py-2 rounded-2xl gap-3 items-center"
+              className="bg-neutral-800 border-white/10 inline-flex px-3 md:px-5 py-1.5 md:py-2 rounded-2xl gap-3 items-center hover:scale-105 transition duration-300"
               key={feature}
             >
-              <span className="bg-lime-400 text-neutral-950 size-5 rounded-full inline-flex items-center justify-center text-xl">
+              <span className="bg-lime-400 text-neutral-950 size-5 rounded-full inline-flex items-center justify-center text-xl group-hover:rotate-45 transition duration-300">
                 &#10038;
               </span>
               <span className="font-medium md:text-lg">{feature}</span>
