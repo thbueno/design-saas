@@ -1,6 +1,7 @@
 import avatar1 from "@/assets/images/avatar-ashwin-santiago.jpg";
 import avatar3 from "@/assets/images/avatar-florence-shaw.jpg";
 import avatar2 from "@/assets/images/avatar-lula-meyers.jpg";
+import avatar4 from "@/assets/images/avatar-owen-garcia.jpg";
 import Avatar from "@/components/Avatar";
 import FeatureCard from "@/components/FeatureCard";
 import Key from "@/components/Key";
@@ -33,21 +34,30 @@ export default function Features() {
           <FeatureCard
             title="Real-time collaboration"
             description="work together in real-time, with real-time collaboration."
-            className="col-span-2 lg:col-span-1"
+            className="col-span-2 lg:col-span-1 group"
           >
             {/* Avatars */}
-            <div className="aspect-video flex items-center justify-center">
+            <div className="aspect-video inline-flex items-center justify-center">
               <Avatar className="z-40">
-                <Image src={avatar1} alt="Avatar 1" className=" rounded-full" />
+                <Image
+                  src={avatar1}
+                  alt="Avatar 1"
+                  className="size-full rounded-full inline-flex items-center justify-center"
+                />
               </Avatar>
               <Avatar className="-ml-6 border-indigo-500 z-30">
-                <Image src={avatar2} alt="Avatar 2" className=" rounded-full" />
+                <Image src={avatar2} alt="Avatar 2" className="rounded-full" />
               </Avatar>
               <Avatar className="-ml-6 border-amber-500 z-20">
-                <Image src={avatar3} alt="Avatar 3" className=" rounded-full" />
+                <Image src={avatar3} alt="Avatar 3" className="rounded-full" />
               </Avatar>
-              <Avatar className="-ml-6 border-transparent">
-                <div className="size-full bg-neutral-700 rounded-full inline-flex items-center justify-center gap-1">
+              <Avatar className="-ml-6 border-transparent group-hover:border-green-500 transition">
+                <div className="size-full bg-neutral-700 rounded-full inline-flex items-center justify-center gap-1 relative">
+                  <Image
+                    src={avatar4}
+                    alt="Avatar 1"
+                    className="absolute size-full rounded-full opacity-0 group-hover:opacity-100 transition-opacity"
+                  />
                   {Array.from({ length: 3 }).map((_, i) => (
                     <span
                       key={i}
@@ -62,13 +72,21 @@ export default function Features() {
           <FeatureCard
             title="Interactive Prototyping"
             description="Engage your audience with interactive prototyping"
-            className="col-span-2 lg:col-span-1"
+            className="col-span-2 lg:col-span-1 group"
           >
             <div className="aspact-video flex items-center justify-center">
-              <p className="text-4xl font-extrabold text-white/20 text-center">
+              <p className="text-4xl font-extrabold text-white/20 group-hover:text-white/10 transition duration-500 text-center">
                 We've achieved{" "}
-                <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                  incredible
+                <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent relative">
+                  <span>incredible</span>
+                  <video
+                    src="/assets/gif-incredible.mp4"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="absolute bottom-full left-1/2 -translate-x-1/2 rounded-2xl shadow-xl opacity-0 group-hover:opacity-100 transition duration-500 pointer-events-none"
+                  ></video>
                 </span>{" "}
                 grow this year
               </p>
@@ -78,12 +96,18 @@ export default function Features() {
           <FeatureCard
             title="keyboard quicks Actions"
             description="Powerfull commands to help you create design faster"
-            className="col-span-2 md:col-start-2 lg:col-span-1 lg:col-start-auto"
+            className="col-span-2 md:col-start-2 lg:col-span-1 lg:col-start-auto group"
           >
             <div className="aspect-video flex items-center justify-center gap-4">
-              <Key className="w-28">Shift</Key>
-              <Key>alt</Key>
-              <Key>C</Key>
+              <Key className="w-28 group-hover:outline-lime-400 outline outline-2 outline-offset-4">
+                Shift
+              </Key>
+              <Key className="group-hover:outline-lime-400 outline outline-2 outline-offset-4">
+                alt
+              </Key>
+              <Key className="group-hover:outline-lime-400 outline outline-2 outline-offset-4">
+                C
+              </Key>
             </div>
           </FeatureCard>
         </div>
