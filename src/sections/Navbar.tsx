@@ -1,6 +1,6 @@
 "use client";
 
-import logoImage from "@/assets/images/logo.svg";
+import logoImage from "@/assets/images/esthalo_logo.svg";
 import Button from "@/components/Button";
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
@@ -20,25 +20,29 @@ export default function Navbar() {
     <>
       <section className="py-4 lg:py-8 fixed w-full top-0 z-50">
         <div className="container max-w-5xl">
-          <div className="border border-white/15 rounded-[27px] md:rounded-full bg-neutral-950/70 backdrop-blur">
+          <div className="border border-diesel-500/50 rounded-[27px] md:rounded-full bg-stone-200/70 backdrop-blur">
             <div className="grid grid-cols-2 lg:grid-cols-3 p-2 px-4 md:pr-2 items-center">
               <div>
                 <Image
                   src={logoImage}
                   alt="LayersLogo"
-                  className="h-9 w-auto md:h-auto"
+                  className="h-9 w-auto md:h-auto pl-2"
                 />
               </div>
               <div className="lg:flex justify-center items-center hidden">
                 <nav className="flex gap-6 font-medium">
                   {navLinks.map((link) => (
-                    <a key={link.label} href={link.href}>
+                    <a
+                      key={link.label}
+                      href={link.href}
+                      className="text-stone-500 hover:text-diesel-500 transition duration-300 ease-in-out"
+                    >
                       {link.label}
                     </a>
                   ))}
                 </nav>
               </div>
-              <div className="flex justify-end gap-4">
+              <div className="flex justify-end gap-4 text-diesel-600">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -58,7 +62,7 @@ export default function Navbar() {
                     x2="21"
                     y2="6"
                     className={twMerge(
-                      "origin-left transition",
+                      "origin-left transition text-diesel-600",
                       isOpen && "rotate-45 -translate-y-1"
                     )}
                   ></line>

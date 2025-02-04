@@ -1,12 +1,8 @@
 "use client";
 
 import cursorYouImage from "@/assets/images/cursor-you.svg";
-import designExample1Image from "@/assets/images/design-example-1.png";
-import designExample2Image from "@/assets/images/design-example-2.png";
 import Button from "@/components/Button";
-import Pointer from "@/components/Pointer";
-import { motion, useAnimate } from "framer-motion";
-import Image from "next/image";
+import { useAnimate } from "framer-motion";
 import { useEffect } from "react";
 
 export default function Hero() {
@@ -56,7 +52,7 @@ export default function Hero() {
     >
       <div className="container relative">
         {/* Design examples and Ponters */}
-        <motion.div
+        {/* <motion.div
           ref={leftDesignScope}
           initial={{ opacity: 0, y: 100, x: -100 }}
           drag
@@ -93,11 +89,11 @@ export default function Hero() {
           className="absolute right-80 -top-4 hidden lg:block"
         >
           <Pointer name="Bryan" color="red" />
-        </motion.div>
+        </motion.div> */}
 
         {/* Toggle null */}
         <div className="flex justify-center">
-          <div className="inline-flex py-1 px-3 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full text-neutral-950 font-semibold">
+          <div className="inline-flex py-1 px-3 bg-gradient-to-r from-diesel-500 to-amber-400 rounded-full text-diesel-900 font-semibold">
             ✨ $7.5M seed round raised
           </div>
         </div>
@@ -105,17 +101,17 @@ export default function Hero() {
         <h1 className="text-6xl md:text-7xl lg:text-8xl font-medium text-center mt-6">
           Impactful design, <br /> created effortlessly
         </h1>
-        <p className="text-center text-xl text-white/50 mt-8 max-w-2xl mx-auto">
+        <p className="text-center text-xl text-stone-500 mt-8 max-w-2xl mx-auto">
           Design tools shouldn't slow you down. Layers combines powerful
           features with an intuitive interface that keeps you in your creative
           flow.
         </p>
         {/* Point to Action */}
-        <form className="flex border border-white/15 rounded-full p-2 mt-8 max-w-lg mx-auto">
+        <form className="flex border border-diesel-500/30 rounded-full p-2 mt-8 max-w-lg mx-auto ">
           <input
             type="email"
             placeholder="Enter your email"
-            className="bg-transparent placeholder:pl-4 md:flex-1 w-full"
+            className="bg-transparent pl-4 md:flex-1 w-full placeholder:text-stone-400"
           />
           <Button
             type="submit"
