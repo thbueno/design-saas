@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Shrikhand } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
@@ -7,6 +7,13 @@ const inter = Inter({
   subsets: ["latin"],
   display: "swap",
   axes: ["opsz"],
+});
+
+const shrikhand = Shrikhand({
+  weight: "400",
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-shrikhand",
 });
 
 export const metadata: Metadata = {
@@ -22,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} font-sans antialiased bg-stone-200 text-stone-700`}
+        className={`${inter.variable} ${shrikhand.variable} font-sans antialiased bg-stone-200 text-stone-700`}
       >
         {children}
       </body>

@@ -35,20 +35,20 @@ export default function Introduction() {
 
           <div className="text-4xl md:text-5xl lg:text-6xl text-center font-medium mt-10">
             <span>Your creative process deserves better.</span>{" "}
-            <span className="text-white/15">
+            <span className="text-stone-700/15">
               {words.map((word, wordIndex) => (
                 <motion.span
                   key={wordIndex}
                   className={twMerge(
                     "transition duration-500",
-                    wordIndex < currentWord && "text-white"
+                    wordIndex < currentWord && "text-stone-700"
                   )}
                 >
                   {word}{" "}
                 </motion.span>
               ))}
             </span>
-            <span className="text-lime-400 block">
+            <span className="text-diesel-500 block">
               thats why we built Layers.
             </span>
           </div>

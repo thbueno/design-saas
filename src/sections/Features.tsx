@@ -26,7 +26,8 @@ export default function Features() {
           <Tag>Features</Tag>
         </div>
         <h2 className="text-6xl font-medium text-center mt-6 max-w-2xl mx-auto">
-          Where power meets <span className="text-lime-400">simplicity</span>
+          Where power meets{" "}
+          <span className="text-diesel-500 font-curve">simplicity</span>
         </h2>
         {/* Features grid */}
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-4 lg:grid-cols-3">
@@ -75,7 +76,7 @@ export default function Features() {
             className="col-span-2 lg:col-span-1 group"
           >
             <div className="aspact-video flex items-center justify-center">
-              <p className="text-4xl font-extrabold text-white/20 group-hover:text-white/10 transition duration-500 text-center">
+              <p className="text-4xl font-extrabold text-stone-700/20 group-hover:text-stone-700/10 transition duration-500 text-center">
                 We've achieved{" "}
                 <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent relative">
                   <span>incredible</span>
@@ -99,13 +100,13 @@ export default function Features() {
             className="col-span-2 md:col-start-2 lg:col-span-1 lg:col-start-auto group"
           >
             <div className="aspect-video flex items-center justify-center gap-4">
-              <Key className="w-28 outline-transparent group-hover:outline-lime-400 outline outline-2 outline-offset-4 ransition-all duration-300 group-hover:translate-y-1">
+              <Key className="w-28 outline-transparent group-hover:outline-diesel-500 outline outline-2 outline-offset-4 ransition-all duration-300 group-hover:translate-y-1">
                 Shift
               </Key>
-              <Key className="outline-transparent group-hover:outline-lime-400 outline outline-2 outline-offset-4 transition-all duration-300 group-hover:translate-y-1 delay-100">
+              <Key className="outline-transparent group-hover:outline-diesel-500 outline outline-2 outline-offset-4 transition-all duration-300 group-hover:translate-y-1 delay-100">
                 alt
               </Key>
-              <Key className="outline-transparent group-hover:outline-lime-400 outline outline-2 outline-offset-4 ransition-all duration-300 group-hover:translate-y-1 delay-200">
+              <Key className="outline-transparent group-hover:outline-diesel-500 outline outline-2 outline-offset-4 ransition-all duration-300 group-hover:translate-y-1 delay-200">
                 C
               </Key>
             </div>
@@ -115,13 +116,15 @@ export default function Features() {
         <div className="mt-8 gap-3 flex flex-wrap justify-center group">
           {features.map((feature) => (
             <div
-              className="bg-neutral-800 border-white/10 inline-flex px-3 md:px-5 py-1.5 md:py-2 rounded-2xl gap-3 items-center hover:scale-105 transition duration-300"
+              className="bg-stone-200 border border-diesel-500 inline-flex px-3 md:px-5 py-1.5 md:py-2 rounded-2xl gap-3 items-center hover:scale-105 transition duration-300"
               key={feature}
             >
-              <span className="bg-lime-400 text-neutral-950 size-5 rounded-full inline-flex items-center justify-center text-xl group-hover:rotate-45 transition duration-300">
+              <span className="bg-stone-200 text-diesel-500  size-5 rounded-full inline-flex items-center justify-center text-xl group-hover:rotate-45 transition duration-300">
                 &#10038;
               </span>
-              <span className="font-medium md:text-lg">{feature}</span>
+              <span className="font-medium text-stone-500 md:text-lg">
+                {feature}
+              </span>
             </div>
           ))}
         </div>

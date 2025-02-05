@@ -62,6 +62,7 @@ const config: Config = {
       },
       fontFamily: {
         sans: ["var(--font-inter)", "sans-serif"],
+        curve: ["var(--font-shrikhand)", "sans-serif"],
       },
       screens: {
         sm: "375px",
