@@ -1,10 +1,10 @@
-import LogoImage from "@/assets/images/logo.svg";
+import LogoImage from "@/assets/images/esthalo_logo.svg";
 import Image from "next/image";
 
 const footerLinks = [
-  { href: "#", label: "Contact" },
-  { href: "#", label: "Privacy Policy" },
-  { href: "#", label: "Terms & Conditions" },
+  { href: "#", label: "Contato" },
+  { href: "#", label: "Instagram" },
+  { href: "#", label: "LinkedIn" },
 ];
 
 export default function Footer() {
@@ -21,7 +21,7 @@ export default function Footer() {
                 <a
                   key={link.label}
                   href={link.href}
-                  className="text-white/50 text-sm"
+                  className="text-stone-500 hover:text-diesel-500 transition duration-500 ease-in-out text-md"
                 >
                   {link.label}
                 </a>

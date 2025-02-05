@@ -41,13 +41,14 @@ export default function Faqs() {
           <Tag>FAQs</Tag>
         </div>
         <h2 className="text-6xl font-medium mt-6 text-center max-w-xl mx-auto">
-          Questions? We've got <span className="text-lime-400">answers</span>
+          Questions? We've got{" "}
+          <span className="text-diesel-500 font-curve">answers</span>
         </h2>
         <div className="flex flex-col gap-6 mt-12 max-w-xl mx-auto">
           {faqs.map((faq, faqIndex) => (
             <div
               key={faq.question}
-              className="bg-neutral-900 rounded-2xl border border-white/10 p-6"
+              className="bg-stone-300/20 rounded-2xl border border-stone-300 p-6"
             >
               <div
                 className="flex justify-between items-center"
@@ -65,7 +66,7 @@ export default function Faqs() {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   className={twMerge(
-                    "feather feather-plus text-lime-400 flex-shrink-0 transition duration-300",
+                    "feather feather-plus text-diesel-500 flex-shrink-0 transition duration-300",
                     selectedIndex === faqIndex && "rotate-45"
                   )}
                 >
@@ -81,7 +82,7 @@ export default function Faqs() {
                     exit={{ height: 0, marginTop: 0 }}
                     className={twMerge("overflow-hidden")}
                   >
-                    <p className="text-white/50">{faq.answer}</p>
+                    <p className="text-stone-500">{faq.answer}</p>
                   </motion.div>
                 )}
               </AnimatePresence>

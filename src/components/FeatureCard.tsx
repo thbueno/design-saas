@@ -10,7 +10,7 @@ export default function FeatureCard(props: {
   return (
     <div
       className={twMerge(
-        "bg-stone-200 border border-stone-400/40 p-6 rounded-3xl",
+        "bg-stone-300/20 border border-stone-400/40 p-6 rounded-3xl",
         className
       )}
     >

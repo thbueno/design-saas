@@ -30,7 +30,7 @@ export default function IntegrationsColumn(props: {
           {integrations.map((integration) => (
             <div
               key={integration.name}
-              className="bg-neutral-900 border border-white/10 p-6 rounded-3xl"
+              className="bg-stone-300/20 border border-stone-300 p-6 rounded-3xl"
             >
               <div className="flex justify-center">
                 <Image
@@ -44,7 +44,7 @@ export default function IntegrationsColumn(props: {
               <h3 className="text-3xl text-center font-medium mt-6">
                 {integration.name}
               </h3>
-              <p className="text-center text-white/50 mt-2">
+              <p className="text-center text-stone-500 mt-2">
                 {integration.description}
               </p>
             </div>

@@ -26,7 +26,7 @@ export default function Navbar() {
                 <Image
                   src={logoImage}
                   alt="LayersLogo"
-                  className="h-9 w-auto md:h-auto pl-2"
+                  className="h-9 w-auto md:h-auto pl-2 sm:py-0.5"
                 />
               </div>
               <div className="lg:flex justify-center items-center hidden">

@@ -35,10 +35,12 @@ export default function CallToAction() {
         >
           {Array.from({ length: 10 }).map((_, index) => (
             <div key={index} className="flex items-center gap-16">
-              <span className="text-lime-400 text-7xl group-hover:text-white">
+              <span className="text-diesel-500 text-7xl group-hover:text-stone-700">
                 &#10038;
               </span>
-              <span className="group-hover:text-lime-400">Try it for free</span>
+              <span className="group-hover:text-diesel-500">
+                Try it for free
+              </span>
             </div>
           ))}
         </motion.div>

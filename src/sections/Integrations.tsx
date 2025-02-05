@@ -54,7 +54,8 @@ export default function Integrations() {
             </div>
 
             <h2 className="text-6xl font-medium mt-6">
-              Plays well with <span className="text-lime-400">others</span>
+              Plays well with{" "}
+              <span className="text-diesel-500 font-curve">others</span>
             </h2>
             <p>
               Layers seamlessly connects with your favorite tools, making it
