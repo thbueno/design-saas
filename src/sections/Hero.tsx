@@ -13,14 +13,16 @@ export default function Hero() {
           </div>
         </div>
         {/* Content */}
-        <h1 className="text-6xl md:text-7xl lg:text-8xl font-medium text-center mt-6">
-          Impactful <span className="font-curve text-diesel-500">design</span>{" "}
-          <br /> created effortlessly
+        <h1 className="text-6xl md:text-6xl lg:text-7xl font-medium text-center mt-6">
+          uma agência experiente
+          <br />
+          especializada em{" "}
+          <span className="font-curve text-diesel-500"> inovar</span>
         </h1>
-        <p className="text-center text-xl text-stone-500 mt-8 max-w-2xl mx-auto">
-          Design tools shouldn't slow you down. Layers combines powerful
-          features with an intuitive interface that keeps you in your creative
-          flow.
+        <p className="text-center text-xl text-stone-500 mt-8 max-w-xl mx-auto">
+          Design é mais do que aparência, é experiência. Criamos interfaces e
+          materiais visuais que comunicam, engajam e fortalecem a identidade da
+          sua marca.
         </p>
         {/* Point to Action */}
         <form className="flex border border-diesel-500/30 rounded-full p-2 mt-8 max-w-lg mx-auto ">

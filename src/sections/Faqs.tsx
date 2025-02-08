@@ -33,7 +33,7 @@ const faqs = [
 ];
 
 export default function Faqs() {
-  const [selectedIndex, setSelectedIndex] = useState(0);
+  const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   return (
     <section className="py-24">
       <div className="container">
@@ -51,8 +51,12 @@ export default function Faqs() {
               className="bg-stone-300/20 rounded-2xl border border-stone-300 p-6"
             >
               <div
-                className="flex justify-between items-center"
-                onClick={() => setSelectedIndex(faqIndex)}
+                className="flex justify-between items-center cursor-pointer"
+                onClick={() => {
+                  setSelectedIndex(
+                    selectedIndex === faqIndex ? null : faqIndex
+                  );
+                }}
               >
                 <h3 className="font-medium pr-4">{faq.question}</h3>
                 <svg

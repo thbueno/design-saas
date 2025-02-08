@@ -23,11 +23,11 @@ export default function Features() {
     <section className="py-24">
       <div className="container">
         <div className="flex justify-center">
-          <Tag>Features</Tag>
+          <Tag>Serviços</Tag>
         </div>
-        <h2 className="text-6xl font-medium text-center mt-6 max-w-2xl mx-auto">
-          Where power meets{" "}
-          <span className="text-diesel-500 font-curve">simplicity</span>
+        <h2 className="text-5xl font-medium text-center mt-6 max-w-2xl mx-auto">
+          nossas{" "}
+          <span className="text-diesel-500 font-curve">especialidades</span>
         </h2>
         {/* Features grid */}
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-4 lg:grid-cols-3">
