@@ -6,12 +6,12 @@ import { twMerge } from "tailwind-merge";
 
 const faqs = [
   {
-    question: "How is Layers different from other design tools?",
+    question: "Como minha empresa pode dominar o topo das pesquisas?",
     answer:
-      "Unlike traditional design tools, Layers prioritizes speed and simplicity without sacrificing power. Our intelligent interface adapts to your workflow, reducing clicks and keeping you in your creative flow.",
+      "com SEO estratégico para visibilidade duradoura. campanhas PPC que maximizam o seu investimento.",
   },
   {
-    question: "Is there a learning curve?",
+    question: "?",
     answer:
       "Layers is designed to feel intuitive from day one. Most designers are productive within hours, not weeks. We also provide interactive tutorials and comprehensive documentation to help you get started.",
   },
@@ -41,8 +41,8 @@ export default function Faqs() {
           <Tag>FAQs</Tag>
         </div>
         <h2 className="text-6xl font-medium mt-6 text-center max-w-xl mx-auto">
-          Questions? We've got{" "}
-          <span className="text-diesel-500 font-curve">answers</span>
+          Dúvidas? Nós temos{" "}
+          <span className="text-diesel-500 font-curve">respostas</span>
         </h2>
         <div className="flex flex-col gap-6 mt-12 max-w-xl mx-auto">
           {faqs.map((faq, faqIndex) => (

@@ -9,13 +9,13 @@ import Tag from "@/components/Tag";
 import Image from "next/image";
 
 const features = [
-  "Asset Library",
-  "Code Preview",
-  "Flow Mode",
-  "Smart Sync",
-  "Auto Layout",
-  "Fast Search",
-  "Smart Guides",
+  "identidade visual",
+  "Social Media",
+  "Branding",
+  "Video Production",
+  "Website",
+  "apps",
+  "Automação com AI",
 ];
 
 export default function Features() {
@@ -25,16 +25,16 @@ export default function Features() {
         <div className="flex justify-center">
           <Tag>Serviços</Tag>
         </div>
-        <h2 className="text-5xl font-medium text-center mt-6 max-w-2xl mx-auto">
-          nossas{" "}
-          <span className="text-diesel-500 font-curve">especialidades</span>
+        <h2 className="text-6xl font-medium text-center mt-6 max-w-2xl mx-auto">
+          especialistas em{" "}
+          <span className="text-diesel-500 font-curve">cultivar</span>
         </h2>
         {/* Features grid */}
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-4 lg:grid-cols-3">
           {/* Feature card 1 */}
           <FeatureCard
-            title="Real-time collaboration"
-            description="work together in real-time, with real-time collaboration."
+            title="Precisão no ambiente Digital"
+            description="Consultoria Estratégica com resultados que convertem em negócios reais e comunidades engajadas com seu conteúdo"
             className="col-span-2 lg:col-span-1 group"
           >
             {/* Avatars */}
@@ -53,7 +53,7 @@ export default function Features() {
                 <Image src={avatar3} alt="Avatar 3" className="rounded-full" />
               </Avatar>
               <Avatar className="-ml-6 border-transparent group-hover:border-green-500 transition">
-                <div className="size-full bg-neutral-700 rounded-full inline-flex items-center justify-center gap-1 relative">
+                <div className="size-full bg-stone-400 rounded-full inline-flex items-center justify-center gap-1 relative">
                   <Image
                     src={avatar4}
                     alt="Avatar 1"
@@ -71,8 +71,8 @@ export default function Features() {
           </FeatureCard>
           {/* Feature card 2 */}
           <FeatureCard
-            title="Interactive Prototyping"
-            description="Engage your audience with interactive prototyping"
+            title="Design criativo para todas as plataformas"
+            description="sua marca no centro das atenções com uma identidade visual exclusiva, instantaneamente reconhecível e consistentemente cativante em todas as plataformas digitais."
             className="col-span-2 lg:col-span-1 group"
           >
             <div className="aspact-video flex items-center justify-center">
@@ -95,8 +95,8 @@ export default function Features() {
           </FeatureCard>
           {/* Feature card 3 */}
           <FeatureCard
-            title="keyboard quicks Actions"
-            description="Powerfull commands to help you create design faster"
+            title="Sites cativantes e aplicativos intuitivos"
+            description="Elaboramos com dedicação cada detalhe, desde a navegação intuitiva até as interfaces visualmente impressionantes"
             className="col-span-2 md:col-start-2 lg:col-span-1 lg:col-start-auto group"
           >
             <div className="aspect-video flex items-center justify-center gap-4">

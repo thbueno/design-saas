@@ -14,7 +14,7 @@ export default function Hero() {
         </div>
         {/* Content */}
         <h1 className="text-6xl md:text-6xl lg:text-7xl font-medium text-center mt-6">
-          uma agência experiente
+          uma<span className="font-light italic"> agência </span>experiente
           <br />
           especializada em{" "}
           <span className="font-curve text-diesel-500"> inovar</span>
