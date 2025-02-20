@@ -38,11 +38,10 @@ export default function Faqs() {
     <section className="py-24">
       <div className="container">
         <div className="flex justify-center items-center">
-          <Tag>FAQs</Tag>
+          <Tag>valores</Tag>
         </div>
         <h2 className="text-6xl font-medium mt-6 text-center max-w-xl mx-auto">
-          Como criamos um novo{" "}
-          <span className="text-diesel-500 font-curve">projeto</span>
+          nossos <span className="text-diesel-500 font-curve">valores</span>
         </h2>
         <div className="flex flex-col gap-6 mt-12 max-w-xl mx-auto">
           {faqs.map((faq, faqIndex) => (
