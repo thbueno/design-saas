@@ -21,7 +21,8 @@ const integrations = [
   {
     name: "Microsoft copilot",
     icon: slackIcon,
-    description: "Slack is a powerful team communication platform.",
+    description:
+      "Copilot é um marco na evolução da inteligência artificial da Microsoft.",
   },
   {
     name: "DeepSeek",
