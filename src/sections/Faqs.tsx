@@ -6,29 +6,29 @@ import { twMerge } from "tailwind-merge";
 
 const faqs = [
   {
-    question: "Como minha empresa pode dominar o topo das pesquisas?",
+    question: "Avaliação inicial:",
     answer:
       "com SEO estratégico para visibilidade duradoura. campanhas PPC que maximizam o seu investimento.",
   },
   {
-    question: "?",
+    question: "Pesquisa e desenvolvimento de estratégia:",
     answer:
-      "Layers is designed to feel intuitive from day one. Most designers are productive within hours, not weeks. We also provide interactive tutorials and comprehensive documentation to help you get started.",
+      "Discutimos suas metas, desafios e visão para entender suas necessidades.",
   },
   {
-    question: "How do you handle version control?",
+    question: "Planejamento e design:",
     answer:
-      "Every change in Layers is automatically saved and versioned. You can review history, restore previous versions, and create named versions for important milestones.",
+      "Nossa equipe desenvolve um plano de projeto detalhado, incluindo cronogramas e entregas, seguido de modelos de design para sua análise.",
   },
   {
-    question: "Can I work offline?",
+    question: "Execução:",
     answer:
-      "Yes! Layers includes a robust offline mode. Changes sync automatically when you're back online, so you can keep working anywhere.",
+      "Damos vida ao projeto por meio do desenvolvimento, incorporando o feedback ao longo do processo.",
   },
   {
-    question: "How does Layers handle collaboration?",
+    question: "Lançamento e suporte:",
     answer:
-      "Layers is built for collaboration. You can invite team members to your projects, share feedback, and work together in real-time.",
+      "pós testes completos, lançamos o projeto e fornecemos suporte contínuo para garantir que tudo corra bem.",
   },
 ];
 
@@ -41,8 +41,8 @@ export default function Faqs() {
           <Tag>FAQs</Tag>
         </div>
         <h2 className="text-6xl font-medium mt-6 text-center max-w-xl mx-auto">
-          Dúvidas? Nós temos{" "}
-          <span className="text-diesel-500 font-curve">respostas</span>
+          Como criamos um novo{" "}
+          <span className="text-diesel-500 font-curve">projeto</span>
         </h2>
         <div className="flex flex-col gap-6 mt-12 max-w-xl mx-auto">
           {faqs.map((faq, faqIndex) => (

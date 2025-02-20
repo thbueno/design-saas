@@ -9,7 +9,7 @@ export default function Hero() {
         {/* Toggle null */}
         <div className="flex justify-center">
           <div className="inline-flex py-1 px-3 bg-gradient-to-r from-diesel-500 to-amber-400 rounded-full text-diesel-100 font-semibold">
-            ✨ $7.5M seed round raised
+            &#10038; 15 anos de tradição
           </div>
         </div>
         {/* Content */}
@@ -29,7 +29,7 @@ export default function Hero() {
           <input
             type="email"
             placeholder="Informe seu email"
-            className="bg-transparent pl-4 md:flex-1 w-full placeholder:text-stone-400"
+            className="bg-transparent pl-4 md:flex-1 w-full placeholder:text-stone-400 outline-none"
           />
           <Button
             type="submit"
@@ -37,7 +37,7 @@ export default function Hero() {
             size="sm"
             className="whitespace-nowrap"
           >
-            sign up
+            enviar
           </Button>
         </form>
       </div>

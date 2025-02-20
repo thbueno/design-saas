@@ -9,32 +9,32 @@ import Tag from "@/components/Tag";
 
 const integrations = [
   {
-    name: "Figma",
+    name: "ChatGPT",
     icon: figmaIcon,
-    description: "Figma is a collaborative interface design tool.",
+    description: "ChatGPT é a plataforma mais completa do mercado.",
   },
   {
-    name: "Notion",
+    name: "Google Gemini",
     icon: notionIcon,
-    description: "Notion is an all-in-one workspace for notes and docs.",
+    description: "Google Gemini é ",
   },
   {
-    name: "Slack",
+    name: "Microsoft copilot",
     icon: slackIcon,
     description: "Slack is a powerful team communication platform.",
   },
   {
-    name: "Relume",
+    name: "DeepSeek",
     icon: relumeIcon,
     description: "Relume is a no-code website builder and design system.",
   },
   {
-    name: "Framer",
+    name: "Claude",
     icon: framerIcon,
     description: "Framer is a professional website prototyping tool.",
   },
   {
-    name: "GitHub",
+    name: "Notebook LM",
     icon: githubIcon,
     description: "GitHub is the leading platform for code collaboration.",
   },
@@ -50,16 +50,19 @@ export default function Integrations() {
           {/* Integrations Title and Description */}
           <div className="">
             <div className="flex justify-start">
-              <Tag>Integrations</Tag>
+              <Tag>AI</Tag>
             </div>
 
             <h2 className="text-6xl font-medium mt-6">
-              Plays well with{" "}
-              <span className="text-diesel-500 font-curve">others</span>
+              precisão no mundo da{" "}
+              <span className="text-diesel-500 font-curve">
+                Inteligência artificial
+              </span>
             </h2>
             <p>
-              Layers seamlessly connects with your favorite tools, making it
-              easy to plug into any workflow and colaborate across platforms.
+              Navegue com tranquilidade e segurança com a nossa consultoria
+              especializada nas inteligências artificiais mais eficentes do
+              mercado. Integração automatizada com as principais plataformas.
             </p>
           </div>
 

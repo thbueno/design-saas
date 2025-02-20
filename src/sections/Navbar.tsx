@@ -84,17 +84,17 @@ export default function Navbar() {
                     )}
                   ></line>
                 </svg>
-                <Button
+                {/* <Button
                   variant="secondary"
                   className="hidden md:inline-flex items-center"
                 >
-                  Log in
-                </Button>
+                  WhatsApp
+                </Button> */}
                 <Button
                   variant="primary"
                   className="hidden md:inline-flex items-center"
                 >
-                  Sign up
+                  Contato
                 </Button>
               </div>
             </div>

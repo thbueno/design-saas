@@ -27,7 +27,7 @@ export default function Features() {
         </div>
         <h2 className="text-6xl font-medium text-center mt-6 max-w-2xl mx-auto">
           especialistas em{" "}
-          <span className="text-diesel-500 font-curve">cultivar</span>
+          <span className="text-diesel-500 font-curve">fortalecer</span> marcas
         </h2>
         {/* Features grid */}
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-4 lg:grid-cols-3">
@@ -77,9 +77,9 @@ export default function Features() {
           >
             <div className="aspact-video flex items-center justify-center">
               <p className="text-4xl font-extrabold text-stone-700/20 group-hover:text-stone-700/10 transition duration-500 text-center">
-                We've achieved{" "}
-                <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent relative">
-                  <span>incredible</span>
+                uma presença visual{" "}
+                <span className="bg-gradient-to-r from-amber-500 to-diesel-500 bg-clip-text text-transparent relative">
+                  <span>cativante</span>
                   <video
                     src="/assets/gif-incredible.mp4"
                     autoPlay
@@ -89,13 +89,13 @@ export default function Features() {
                     className="absolute bottom-full left-1/2 -translate-x-1/2 rounded-2xl shadow-xl opacity-0 group-hover:opacity-100 transition duration-500 pointer-events-none"
                   ></video>
                 </span>{" "}
-                grow this year
+                no ambiente digital
               </p>
             </div>
           </FeatureCard>
           {/* Feature card 3 */}
           <FeatureCard
-            title="Sites cativantes e aplicativos intuitivos"
+            title="Sites inovadores e aplicativos intuitivos"
             description="Elaboramos com dedicação cada detalhe, desde a navegação intuitiva até as interfaces visualmente impressionantes"
             className="col-span-2 md:col-start-2 lg:col-span-1 lg:col-start-auto group"
           >
