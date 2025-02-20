@@ -16,7 +16,7 @@ const integrations = [
   {
     name: "Google Gemini",
     icon: notionIcon,
-    description: "Google Gemini é ",
+    description: " é um chatbot desenvolvido pelo Google.",
   },
   {
     name: "Microsoft copilot",
