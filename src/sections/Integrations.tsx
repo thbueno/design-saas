@@ -11,12 +11,14 @@ const integrations = [
   {
     name: "ChatGPT",
     icon: figmaIcon,
-    description: "ChatGPT é a plataforma mais completa do mercado.",
+    description:
+      "O ChatGPT é um modelo de inteligência artificial baseado em linguagem natural",
   },
   {
     name: "Google Gemini",
     icon: notionIcon,
-    description: " é um chatbot desenvolvido pelo Google.",
+    description:
+      " O Gemini é um modelo de inteligência artificial avançado, criado pelo Google AI.",
   },
   {
     name: "Microsoft copilot",
@@ -27,17 +29,19 @@ const integrations = [
   {
     name: "DeepSeek",
     icon: relumeIcon,
-    description: "Relume is a no-code website builder and design system.",
+    description:
+      "Empresa de inteligência artificial focada em desenvolver soluções avançadas de IA para diversas aplicações.",
   },
   {
     name: "Claude",
     icon: framerIcon,
-    description: "Framer is a professional website prototyping tool.",
+    description:
+      "Uma assistente de IA desenvolvido pela Anthropic para ajudar com uma ampla variedade de tarefas.",
   },
   {
     name: "Notebook LM",
     icon: githubIcon,
-    description: "GitHub is the leading platform for code collaboration.",
+    description: "Usa o poder da IA para fazer resumos rápidos e tomar notas.",
   },
 ];
 
