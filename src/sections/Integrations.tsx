@@ -1,46 +1,46 @@
-import figmaIcon from "@/assets/images/figma-logo.svg";
-import framerIcon from "@/assets/images/framer-logo.svg";
-import githubIcon from "@/assets/images/github-logo.svg";
-import notionIcon from "@/assets/images/notion-logo.svg";
-import relumeIcon from "@/assets/images/relume-logo.svg";
-import slackIcon from "@/assets/images/slack-logo.svg";
+import chatGPTIcon from "@/assets/images/ai-logos/chatgpt.svg";
+import claudeIcon from "@/assets/images/ai-logos/claude.svg";
+import copilotIcon from "@/assets/images/ai-logos/copilot.svg";
+import deepSeekIcon from "@/assets/images/ai-logos/deepseek.svg";
+import geminiIcon from "@/assets/images/ai-logos/gemini.svg";
+import notebookIcon from "@/assets/images/ai-logos/notebook.svg";
 import IntegrationsColumn from "@/components/IntegrationsColumn";
 import Tag from "@/components/Tag";
 
 const integrations = [
   {
     name: "ChatGPT",
-    icon: figmaIcon,
+    icon: chatGPTIcon,
     description:
       "O ChatGPT é um modelo de inteligência artificial baseado em linguagem natural",
   },
   {
     name: "Google Gemini",
-    icon: notionIcon,
+    icon: geminiIcon,
     description:
       " O Gemini é um modelo de inteligência artificial avançado, criado pelo Google AI.",
   },
   {
     name: "Microsoft copilot",
-    icon: slackIcon,
+    icon: copilotIcon,
     description:
       "Copilot é um marco na evolução da inteligência artificial da Microsoft.",
   },
   {
     name: "DeepSeek",
-    icon: relumeIcon,
+    icon: deepSeekIcon,
     description:
       "Empresa de inteligência artificial focada em desenvolver soluções avançadas de IA para diversas aplicações.",
   },
   {
     name: "Claude",
-    icon: framerIcon,
+    icon: claudeIcon,
     description:
       "Uma assistente de IA desenvolvido pela Anthropic para ajudar com uma ampla variedade de tarefas.",
   },
   {
     name: "Notebook LM",
-    icon: githubIcon,
+    icon: notebookIcon,
     description: "Usa o poder da IA para fazer resumos rápidos e tomar notas.",
   },
 ];
