@@ -1,33 +1,32 @@
 "use client";
 
-import acmeLogo from "@/assets/images/acme-corp.svg";
-import apexLogo from "@/assets/images/apex.svg";
-import celestialLogo from "@/assets/images/celestial.svg";
-import echoValleyLogo from "@/assets/images/echo-valley.svg";
-import outsideLogo from "@/assets/images/outside.svg";
-import pulseLogo from "@/assets/images/pulse.svg";
-import quantumLogo from "@/assets/images/quantum.svg";
-import twiceLogo from "@/assets/images/twice.svg";
+import govbr from "@/assets/images/client-logos/govbr.svg";
+import lacava from "@/assets/images/client-logos/lacava.svg";
+import motormac from "@/assets/images/client-logos/motormac.svg";
+import starh from "@/assets/images/client-logos/starh.svg";
+import startceo from "@/assets/images/client-logos/startceo.svg";
+import stratega from "@/assets/images/client-logos/stratega.svg";
+import tiozequinha from "@/assets/images/client-logos/tiozequinha.svg";
+
 import { motion } from "framer-motion";
 import Image from "next/image";
 import React from "react";
 
 const logos = [
-  { name: "Quantum", image: quantumLogo },
-  { name: "Acme Corp", image: acmeLogo },
-  { name: "Echo Valley", image: echoValleyLogo },
-  { name: "Pulse", image: pulseLogo },
-  { name: "Outside", image: outsideLogo },
-  { name: "Apex", image: apexLogo },
-  { name: "Celestial", image: celestialLogo },
-  { name: "Twice", image: twiceLogo },
+  { name: "govbr", image: govbr },
+  { name: "stratega", image: stratega },
+  { name: "starh", image: starh },
+  { name: "lacava", image: lacava },
+  { name: "motormac", image: motormac },
+  { name: "tiozequinha", image: tiozequinha },
+  { name: "startceo", image: startceo },
 ];
 
 export default function LogoTicker() {
   return (
     <section className="py-24 overflow-x-clip">
       <div className="container">
-        <h3 className="text-center text-white/50 text-xl">
+        <h3 className="text-center  text-xl">
           Alredy chosen br these market leaders
         </h3>
         <div className="flex overflow-hidden mt-12 [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">

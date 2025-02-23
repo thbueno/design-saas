@@ -6,27 +6,27 @@ import { twMerge } from "tailwind-merge";
 
 const faqs = [
   {
-    question: "Avaliação inicial:",
+    question: "Criado, não copiado",
     answer:
-      "com SEO estratégico para visibilidade duradoura. campanhas PPC que maximizam o seu investimento.",
+      "Não há dois problemas exatamente iguais, por isso acreditamos que cada projeto merece uma solução específica e personalizada, inclusive o seu.",
   },
   {
-    question: "Pesquisa e desenvolvimento de estratégia:",
+    question: "Colaboração fluida",
     answer:
-      "Discutimos suas metas, desafios e visão para entender suas necessidades.",
+      "Fazemos questão que nosssos clientes se sintam contribuidores ativos do projeto. Estamos sempre prontos para discutir e fornecer atualizações para você.",
   },
   {
-    question: "Planejamento e design:",
+    question: "Desenvolvimento flexível",
     answer:
-      "Nossa equipe desenvolve um plano de projeto detalhado, incluindo cronogramas e entregas, seguido de modelos de design para sua análise.",
+      "Permanecemos adaptáveis a quaisquer necessidades urgentes ou mudanças à medida que seu projeto evolui.",
   },
   {
-    question: "Execução:",
+    question: "Valores transparentes",
     answer:
-      "Damos vida ao projeto por meio do desenvolvimento, incorporando o feedback ao longo do processo.",
+      "Fornecemos um detalhamento claro das faturas, portanto, não há taxas ocultas! Seja por assinatura ou por projeto.",
   },
   {
-    question: "Lançamento e suporte:",
+    question: "Lançamento e suporte contínuo",
     answer:
       "pós testes completos, lançamos o projeto e fornecemos suporte contínuo para garantir que tudo corra bem.",
   },

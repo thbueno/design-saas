@@ -37,7 +37,7 @@ export default function Hero() {
             size="sm"
             className="whitespace-nowrap"
           >
-            enviar
+            Inove agora!
           </Button>
         </form>
       </div>
