@@ -1,8 +1,12 @@
-import ArrowIcon from "@/components/ArrowIcon";
+import avatar1 from "@/assets/images/avatar-ashwin-santiago.jpg";
+import avatar3 from "@/assets/images/avatar-florence-shaw.jpg";
+import avatar2 from "@/assets/images/avatar-lula-meyers.jpg";
+import avatar4 from "@/assets/images/avatar-owen-garcia.jpg";
+import Avatar from "@/components/Avatar";
 import FeatureCard from "@/components/FeatureCard";
 import Key from "@/components/Key";
-import PathIcon from "@/components/PathIcon";
 import Tag from "@/components/Tag";
+import Image from "next/image";
 
 const features = [
   "identidade visual",
@@ -34,9 +38,35 @@ export default function Features() {
             className="col-span-2 lg:col-span-1 group"
           >
             {/* Avatars */}
-            <div className="aspect-video flex items-center justify-center">
-              {/* <Image src={path} alt="Caminho" className="size-full p-4" /> */}
-              <PathIcon className="size-full p-4 stroke-diesel-500" />
+            <div className="aspect-video inline-flex items-center justify-center">
+              <Avatar className="z-40">
+                <Image
+                  src={avatar1}
+                  alt="Avatar 1"
+                  className="size-full rounded-full inline-flex items-center justify-center"
+                />
+              </Avatar>
+              <Avatar className="-ml-6 border-indigo-500 z-30">
+                <Image src={avatar2} alt="Avatar 2" className="rounded-full" />
+              </Avatar>
+              <Avatar className="-ml-6 border-amber-500 z-20">
+                <Image src={avatar3} alt="Avatar 3" className="rounded-full" />
+              </Avatar>
+              <Avatar className="-ml-6 border-transparent group-hover:border-green-500 transition">
+                <div className="size-full bg-stone-400 rounded-full inline-flex items-center justify-center gap-1 relative">
+                  <Image
+                    src={avatar4}
+                    alt="Avatar 1"
+                    className="absolute size-full rounded-full opacity-0 group-hover:opacity-100 transition-opacity"
+                  />
+                  {Array.from({ length: 3 }).map((_, i) => (
+                    <span
+                      key={i}
+                      className="size-1.5 rounded-full bg-white inline-flex"
+                    />
+                  ))}
+                </div>
+              </Avatar>
             </div>
           </FeatureCard>
           {/* Feature card 2 */}
@@ -45,8 +75,22 @@ export default function Features() {
             description="sua marca no centro das atenções com uma identidade visual exclusiva, instantaneamente reconhecível e consistentemente cativante em todas as plataformas digitais."
             className="col-span-2 lg:col-span-1 group"
           >
-            <div className="aspect-video flex items-center justify-center">
-              <ArrowIcon className="size-full p-4 stroke-diesel-500" />
+            <div className="aspact-video flex items-center justify-center">
+              <p className="text-4xl font-extrabold text-stone-700/20 group-hover:text-stone-700/10 transition duration-500 text-center">
+                uma presença visual{" "}
+                <span className="bg-gradient-to-r from-amber-500 to-diesel-500 bg-clip-text text-transparent relative">
+                  <span>cativante</span>
+                  <video
+                    src="/assets/gif-incredible.mp4"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="absolute bottom-full left-1/2 -translate-x-1/2 rounded-2xl shadow-xl opacity-0 group-hover:opacity-100 transition duration-500 pointer-events-none"
+                  ></video>
+                </span>{" "}
+                no ambiente digital
+              </p>
             </div>
           </FeatureCard>
           {/* Feature card 3 */}

@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${shrikhand.variable} font-sans antialiased bg-stone-200 text-stone-700`}
+        className={`${inter.variable} ${shrikhand.variable} font-sans antialiased bg-stone-200 text-stone-700 tracking-tight`}
       >
         {children}
       </body>
