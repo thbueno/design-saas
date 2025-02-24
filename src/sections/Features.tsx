@@ -23,7 +23,7 @@ export default function Features() {
     <section className="py-24">
       <div className="container">
         <div className="flex justify-center">
-          <Tag>Serviços personalizado para marcas</Tag>
+          <Tag>Serviços</Tag>
         </div>
         <h2 className="text-6xl font-medium text-center mt-6 max-w-2xl mx-auto">
           especialistas em{" "}
