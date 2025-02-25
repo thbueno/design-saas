@@ -1,6 +1,6 @@
 import ArrowIcon from "@/components/ArrowIcon";
+import DashboardIcon from "@/components/DashboardIcon";
 import FeatureCard from "@/components/FeatureCard";
-import Key from "@/components/Key";
 import PathIcon from "@/components/PathIcon";
 import Tag from "@/components/Tag";
 
@@ -56,15 +56,7 @@ export default function Features() {
             className="col-span-2 md:col-start-2 lg:col-span-1 lg:col-start-auto group"
           >
             <div className="aspect-video flex items-center justify-center gap-4">
-              <Key className="w-28 outline-transparent group-hover:outline-diesel-500 outline outline-2 outline-offset-4 ransition-all duration-300 group-hover:translate-y-1">
-                Shift
-              </Key>
-              <Key className="outline-transparent group-hover:outline-diesel-500 outline outline-2 outline-offset-4 transition-all duration-300 group-hover:translate-y-1 delay-100">
-                alt
-              </Key>
-              <Key className="outline-transparent group-hover:outline-diesel-500 outline outline-2 outline-offset-4 ransition-all duration-300 group-hover:translate-y-1 delay-200">
-                C
-              </Key>
+              <DashboardIcon className="size-full p-4 stroke-diesel-500" />
             </div>
           </FeatureCard>
         </div>
