@@ -9,9 +9,9 @@ import { twMerge } from "tailwind-merge";
 
 const navLinks = [
   { label: "Home", href: "#" },
-  { label: "Features", href: "#features" },
-  { label: "Integrations", href: "#integrations" },
-  { label: "FAQs", href: "#faqs" },
+  { label: "Serviços", href: "#servicos" },
+  { label: "IA", href: "#ia" },
+  { label: "Valores", href: "#valores" },
 ];
 
 export default function Navbar() {
