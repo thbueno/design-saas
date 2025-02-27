@@ -1,4 +1,5 @@
 import LogoImage from "@/assets/images/esthalo_logo.svg";
+import { Instagram, Linkedin } from "lucide-react";
 import Image from "next/image";
 
 const footerLinks = [
@@ -16,7 +17,11 @@ export default function Footer() {
             <Image src={LogoImage} alt="Layers Logo" />
           </div>
           <div className="">
-            <nav className=" flex gap-6">
+            <div className="flex gap-6">
+              <Instagram className="stroke-pink-600" size={28} />
+              <Linkedin className="stroke-sky-800" size={28} />
+            </div>
+            {/* <nav className=" flex gap-6">
               {footerLinks.map((link) => (
                 <a
                   key={link.label}
@@ -26,7 +31,7 @@ export default function Footer() {
                   {link.label}
                 </a>
               ))}
-            </nav>
+            </nav> */}
           </div>
         </div>
       </div>
