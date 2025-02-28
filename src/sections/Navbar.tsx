@@ -8,9 +8,9 @@ import { useState } from "react";
 import { twMerge } from "tailwind-merge";
 
 const navLinks = [
-  { label: "Home", href: "#" },
-  { label: "Serviços", href: "#servicos" },
-  { label: "IA", href: "#ia" },
+  { label: "missão", href: "#missao" },
+  { label: "serviços", href: "#servicos" },
+  { label: "ia", href: "#ia" },
   { label: "Valores", href: "#valores" },
 ];
 

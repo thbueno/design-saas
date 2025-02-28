@@ -1,5 +1,6 @@
 import LogoImage from "@/assets/images/esthalo_logo.svg";
-import { Instagram, Linkedin } from "lucide-react";
+import InstagramLogo from "@/components/InstagramLogo";
+import LinkedInLogo from "@/components/LinkedInLogo";
 import Image from "next/image";
 
 const footerLinks = [
@@ -17,9 +18,9 @@ export default function Footer() {
             <Image src={LogoImage} alt="Layers Logo" />
           </div>
           <div className="">
-            <div className="flex gap-6">
-              <Instagram className="stroke-pink-600" size={28} />
-              <Linkedin className="stroke-sky-800" size={28} />
+            <div className="flex gap-2">
+              <LinkedInLogo className="h-8" />
+              <InstagramLogo className="h-8" />
             </div>
             {/* <nav className=" flex gap-6">
               {footerLinks.map((link) => (
