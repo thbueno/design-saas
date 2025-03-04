@@ -19,8 +19,8 @@ export default function Footer() {
           </div>
           <div className="">
             <div className="flex gap-4">
-              <LinkedInLogo className="h-8 hover:h-9 transition-transform duration-500 ease-in-out" />
-              <InstagramLogo className="h-8 hover:h-9 transition-transform duration-500 ease-in-out" />
+              <LinkedInLogo className="h-8 hover:h-9 transition duration-500 ease-in-out" />
+              <InstagramLogo className="h-8 hover:h-9 transition duration-500 ease-in-out" />
             </div>
           </div>
         </div>
