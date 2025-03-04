@@ -18,21 +18,10 @@ export default function Footer() {
             <Image src={LogoImage} alt="Layers Logo" />
           </div>
           <div className="">
-            <div className="flex gap-2">
-              <LinkedInLogo className="h-8" />
-              <InstagramLogo className="h-8" />
+            <div className="flex gap-4">
+              <LinkedInLogo className="h-8 hover:h-9 transition-transform duration-500 ease-in-out" />
+              <InstagramLogo className="h-8 hover:h-9 transition-transform duration-500 ease-in-out" />
             </div>
-            {/* <nav className=" flex gap-6">
-              {footerLinks.map((link) => (
-                <a
-                  key={link.label}
-                  href={link.href}
-                  className="text-stone-500 hover:text-diesel-500 transition duration-500 ease-in-out text-md"
-                >
-                  {link.label}
-                </a>
-              ))}
-            </nav> */}
           </div>
         </div>
       </div>
