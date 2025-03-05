@@ -39,7 +39,7 @@ export default function CallToAction() {
                 &#10038;
               </span>
               <span className="group-hover:text-diesel-500">
-                Try it for free
+                crie o futuro, hoje.
               </span>
             </div>
           ))}
