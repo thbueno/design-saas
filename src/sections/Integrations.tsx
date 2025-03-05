@@ -59,18 +59,19 @@ export default function Integrations() {
             </div>
 
             <h2 className="text-6xl font-medium mt-6">
-              precisão no mundo da{" "}
-              <span className="text-diesel-500 font-curve">
-                Inteligência artificial
-              </span>
+              preveja, <span className="font-light italic">analise e</span>{" "}
+              <span className="text-diesel-500 font-curve">otimize</span>
             </h2>
             <p>
-              Navegue com tranquilidade e segurança com a nossa consultoria
-              especializada nas inteligências artificiais mais eficentes do
-              mercado. Integração automatizada com as principais plataformas.
+              Use as{" "}
+              <span className="font-black text-diesel-500">
+                inteligências artificiais
+              </span>{" "}
+              mais eficentes do mercado com proposito e objetivo bem
+              estabelicidos. Utilize todo o poder das AI agents para administrar
+              o conteúdo da sua empresa com eficiência.
             </p>
           </div>
-
           {/* Integrations grid */}
           <div className="">
             <div className="h-[400px] lg:h-[800px] mt-8 lg:mt-0 overflow-hidden grid md:grid-cols-2 gap-4 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]">

@@ -26,8 +26,8 @@ export default function LogoTicker() {
   return (
     <section className="py-24 overflow-x-clip">
       <div className="container">
-        <h3 className="text-center  text-xl">
-          Alredy chosen br these market leaders
+        <h3 className="text-center text-xl">
+          Marcas que fazem parte da nossa história:
         </h3>
         <div className="flex overflow-hidden mt-12 [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
           <motion.div
