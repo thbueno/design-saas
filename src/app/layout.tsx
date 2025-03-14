@@ -17,8 +17,8 @@ const shrikhand = Shrikhand({
 });
 
 export const metadata: Metadata = {
-  title: "Modern Design Tool Landing Page",
-  description: "Created with the help of Frontend Tribe",
+  title: "Esthalo Comunicação",
+  description: "Uma agência experiente especializada em inovar",
 };
 
 export default function RootLayout({
