@@ -14,10 +14,18 @@ export default function Home() {
       <Navbar />
       <Hero />
       <LogoTicker />
-      <Introduction />
-      <Features />
-      <Integrations />
-      <Faqs />
+      <section id="missao">
+        <Introduction />
+      </section>
+      <section id="servicos">
+        <Features />
+      </section>
+      <section id="ia">
+        <Integrations />
+      </section>
+      <section id="valores">
+        <Faqs />S
+      </section>
       <CallToAction />
       <Footer />
     </>
