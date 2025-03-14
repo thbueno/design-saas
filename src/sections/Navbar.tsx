@@ -23,11 +23,13 @@ export default function Navbar() {
           <div className="border border-diesel-500/50 rounded-[27px] md:rounded-full bg-stone-200/70 backdrop-blur">
             <div className="grid grid-cols-2 lg:grid-cols-3 p-2 px-4 md:pr-2 items-center">
               <div>
-                <Image
-                  src={logoImage}
-                  alt="LayersLogo"
-                  className="h-9 w-auto md:h-auto pl-2 sm:py-0.5"
-                />
+                <a href="#hero">
+                  <Image
+                    src={logoImage}
+                    alt="LayersLogo"
+                    className="h-9 w-auto md:h-auto pl-2 sm:py-0.5"
+                  />
+                </a>
               </div>
               <div className="lg:flex justify-center items-center hidden">
                 <nav className="flex gap-6 font-medium">

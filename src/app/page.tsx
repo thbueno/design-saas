@@ -11,8 +11,10 @@ import Navbar from "@/sections/Navbar";
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <Hero />
+      <section id="hero">
+        <Navbar />
+        <Hero />
+      </section>
       <LogoTicker />
       <section id="missao">
         <Introduction />
