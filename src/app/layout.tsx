@@ -1,11 +1,5 @@
 import type { Metadata } from "next";
-import {
-  Chakra_Petch,
-  Inter,
-  Lexend_Deca,
-  Outfit,
-  Shrikhand,
-} from "next/font/google";
+import { Gabarito, Inter, JetBrains_Mono, Shrikhand } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
@@ -15,25 +9,18 @@ const inter = Inter({
   axes: ["opsz"],
 });
 
-const outfit = Outfit({
-  variable: "--font-outfit",
+const jetbrains = JetBrains_Mono({
+  variable: "--font-jetbrains",
   subsets: ["latin"],
   display: "swap",
   weight: ["100", "200", "300", "400", "500", "600", "700"],
 });
 
-const lexend = Lexend_Deca({
-  variable: "--font-lexend",
+const gabarito = Gabarito({
+  variable: "--font-gabarito",
   subsets: ["latin"],
   display: "swap",
-  weight: ["100", "200", "300", "400", "500", "600", "700"],
-});
-
-const chakra = Chakra_Petch({
-  variable: "--font-chakra",
-  subsets: ["latin"],
-  display: "swap",
-  weight: ["300", "400", "500", "600", "700"],
+  weight: ["400", "500", "600", "700", "800", "900"],
 });
 
 const shrikhand = Shrikhand({
@@ -54,9 +41,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" scroll-behavior="smooth">
       <body
-        className={`${lexend.variable} ${shrikhand.variable} font-sans antialiased bg-stone-200 text-stone-700 tracking-tighter`}
+        className={`${gabarito.variable} ${shrikhand.variable} font-sans antialiased bg-stone-200 text-stone-700 tracking-tighter`}
       >
         {children}
       </body>
