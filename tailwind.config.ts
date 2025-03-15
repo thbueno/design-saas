@@ -70,7 +70,7 @@ const config: Config = {
         },
       },
       fontFamily: {
-        sans: ["var(--font-gabarito)", "sans-serif"],
+        sans: ["var(--font-onest)", "sans-serif"],
         curve: ["var(--font-shrikhand)", "sans-serif"],
       },
       screens: {

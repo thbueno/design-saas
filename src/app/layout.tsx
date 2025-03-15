@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
-import { Gabarito, Inter, JetBrains_Mono, Shrikhand } from "next/font/google";
+import {
+  Gabarito,
+  Inter,
+  JetBrains_Mono,
+  Onest,
+  Shrikhand,
+} from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
@@ -14,6 +20,13 @@ const jetbrains = JetBrains_Mono({
   subsets: ["latin"],
   display: "swap",
   weight: ["100", "200", "300", "400", "500", "600", "700"],
+});
+
+const onest = Onest({
+  variable: "--font-onest",
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
 });
 
 const gabarito = Gabarito({
@@ -43,7 +56,7 @@ export default function RootLayout({
   return (
     <html lang="en" scroll-behavior="smooth">
       <body
-        className={`${gabarito.variable} ${shrikhand.variable} font-sans antialiased bg-stone-200 text-stone-700 tracking-tighter`}
+        className={`${onest.variable} ${shrikhand.variable} font-sans antialiased bg-stone-200 text-stone-700 tracking-tighter`}
       >
         {children}
       </body>

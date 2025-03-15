@@ -70,7 +70,7 @@ export default function Features() {
               <span className="bg-stone-200 text-diesel-500  size-5 rounded-full inline-flex items-center justify-center text-xl group-hover:rotate-45 transition duration-300">
                 &#10038;
               </span>
-              <span className="font-medium text-stone-500 md:text-lg hover:text-diesel-500 hover:italic hover:font-light  transition duration-300">
+              <span className="font-medium text-stone-500 md:text-lg hover:text-diesel-500 hover:italic hover:font-light transition-transform duration-300 ease-in-out">
                 {feature}
               </span>
             </div>
