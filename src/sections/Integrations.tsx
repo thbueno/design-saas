@@ -59,7 +59,7 @@ export default function Integrations() {
             </div>
 
             <h2 className="text-6xl font-medium mt-6">
-              preveja, <span className="font-light italic">analise e</span>{" "}
+              preveja, <span className="font-light italic">analise</span>,{" "}
               <span className="text-diesel-500 font-curve">otimize</span>
             </h2>
             <p>
