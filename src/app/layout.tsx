@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
-import { Inter, Shrikhand } from "next/font/google";
+import {
+  Chakra_Petch,
+  Inter,
+  Lexend_Deca,
+  Outfit,
+  Shrikhand,
+} from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
@@ -7,6 +13,27 @@ const inter = Inter({
   subsets: ["latin"],
   display: "swap",
   axes: ["opsz"],
+});
+
+const outfit = Outfit({
+  variable: "--font-outfit",
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["100", "200", "300", "400", "500", "600", "700"],
+});
+
+const lexend = Lexend_Deca({
+  variable: "--font-lexend",
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["100", "200", "300", "400", "500", "600", "700"],
+});
+
+const chakra = Chakra_Petch({
+  variable: "--font-chakra",
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["300", "400", "500", "600", "700"],
 });
 
 const shrikhand = Shrikhand({
@@ -29,7 +56,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${shrikhand.variable} font-sans antialiased bg-stone-200 text-stone-700 tracking-tight`}
+        className={`${lexend.variable} ${shrikhand.variable} font-sans antialiased bg-stone-200 text-stone-700 tracking-tighter`}
       >
         {children}
       </body>

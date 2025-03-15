@@ -61,7 +61,7 @@ const config: Config = {
         },
       },
       fontFamily: {
-        sans: ["var(--font-inter)", "sans-serif"],
+        sans: ["var(--font-lexend)", "sans-serif"],
         curve: ["var(--font-shrikhand)", "sans-serif"],
       },
       screens: {
