@@ -2,6 +2,8 @@
 
 import logoImage from "@/assets/images/esthalo_logo.svg";
 import Button from "@/components/Button";
+import InstagramLogo from "@/components/InstagramLogo";
+import LinkedInLogo from "@/components/LinkedInLogo";
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import { useState } from "react";
@@ -116,12 +118,20 @@ export default function Navbar() {
                       </a>
                     ))}
                     <div className="flex gap-4">
-                      <Button variant="secondary" className="mt-4">
-                        Log in
-                      </Button>
-                      <Button variant="primary" className="mt-4">
-                        Sign up
-                      </Button>
+                      <a
+                        href="https://www.linkedin.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <LinkedInLogo className="h-8 hover:scale-110 transition-transform duration-500 ease-in-out" />
+                      </a>
+                      <a
+                        href="https://www.instagram.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <InstagramLogo className="h-8 hover:scale-110 transition-transform duration-500 ease-in-out" />
+                      </a>
                     </div>
                   </div>
                 </motion.div>
