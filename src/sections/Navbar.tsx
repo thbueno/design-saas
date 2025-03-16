@@ -10,7 +10,7 @@ import { twMerge } from "tailwind-merge";
 const navLinks = [
   { label: "missão", href: "#missao" },
   { label: "serviços", href: "#servicos" },
-  { label: "ia", href: "#ia" },
+  { label: "AI", href: "#ia" },
   { label: "Valores", href: "#valores" },
 ];
 
