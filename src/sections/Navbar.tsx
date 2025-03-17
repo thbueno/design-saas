@@ -111,7 +111,7 @@ export default function Navbar() {
                   exit={{ opacity: 0, y: -20, height: 0 }}
                   className="overflow-hidden"
                 >
-                  <div className="flex flex-col items-center gap-4 py-4">
+                  <div className="flex flex-col items-center gap-6 py-6">
                     {navLinks.map((link) => (
                       <a key={link.label} href={link.href} className="">
                         {link.label}
