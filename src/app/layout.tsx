@@ -1,39 +1,33 @@
 import type { Metadata } from "next";
-import {
-  Gabarito,
-  Inter,
-  JetBrains_Mono,
-  Onest,
-  Shrikhand,
-} from "next/font/google";
+import { Onest, Shrikhand } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-  display: "swap",
-  axes: ["opsz"],
-});
+// const inter = Inter({
+//   variable: "--font-inter",
+//   subsets: ["latin"],
+//   display: "swap",
+//   axes: ["opsz"],
+// });
 
-const jetbrains = JetBrains_Mono({
-  variable: "--font-jetbrains",
-  subsets: ["latin"],
-  display: "swap",
-  weight: ["100", "200", "300", "400", "500", "600", "700"],
-});
+// const jetbrains = JetBrains_Mono({
+//   variable: "--font-jetbrains",
+//   subsets: ["latin"],
+//   display: "swap",
+//   weight: ["100", "200", "300", "400", "500", "600", "700"],
+// });
+
+// const gabarito = Gabarito({
+//   variable: "--font-gabarito",
+//   subsets: ["latin"],
+//   display: "swap",
+//   weight: ["400", "500", "600", "700", "800", "900"],
+// });
 
 const onest = Onest({
   variable: "--font-onest",
   subsets: ["latin"],
   display: "swap",
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
-});
-
-const gabarito = Gabarito({
-  variable: "--font-gabarito",
-  subsets: ["latin"],
-  display: "swap",
-  weight: ["400", "500", "600", "700", "800", "900"],
 });
 
 const shrikhand = Shrikhand({
