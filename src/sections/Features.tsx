@@ -12,6 +12,7 @@ const features = [
   "Websites",
   "apps",
   "AI Agents",
+  "estratégia online",
 ];
 
 export default function Features() {
