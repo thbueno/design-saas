@@ -9,9 +9,9 @@ const features = [
   "Social Media",
   "Branding",
   "Video Production",
-  "Website",
+  "Websites",
   "apps",
-  "Automação com AI",
+  "AI Agents",
 ];
 
 export default function Features() {
