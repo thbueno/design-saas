@@ -42,7 +42,7 @@ export default function Features() {
           </FeatureCard>
           {/* Feature card 2 */}
           <FeatureCard
-            title="Design criativo para todas as plataformas"
+            title="Design criativo para multiplataformas"
             description="sua marca no centro das atenções com uma identidade visual exclusiva, instantaneamente reconhecível e consistentemente cativante em todas as plataformas digitais."
             className="col-span-2 lg:col-span-1 group"
           >
