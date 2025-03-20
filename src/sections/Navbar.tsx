@@ -39,7 +39,7 @@ export default function Navbar() {
                     <a
                       key={link.label}
                       href={link.href}
-                      className="text-stone-500 hover:text-diesel-500 transition duration-300 ease-in-out"
+                      className="text-stone-500 hover:text-diesel-500 hover:scale-105 transition duration-300 ease-in-out"
                     >
                       {link.label}
                     </a>
