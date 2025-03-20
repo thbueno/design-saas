@@ -33,7 +33,7 @@ export default function Navbar() {
                   />
                 </a>
               </div>
-              <div className="lg:flex justify-center items-center hidden">
+              <div className="md:flex justify-center items-center hidden">
                 <nav className="flex gap-6 font-medium">
                   {navLinks.map((link) => (
                     <a
