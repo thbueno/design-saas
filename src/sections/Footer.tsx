@@ -15,7 +15,9 @@ export default function Footer() {
       <div className="container">
         <div className="flex flex-col md:flex-row md:justify-between items-center justify-center gap-6">
           <div className="">
+          <a href="#hero">
             <Image src={LogoImage} alt="Layers Logo" />
+            </a>
           </div>
           <div className="">
             <div className="flex gap-4">
