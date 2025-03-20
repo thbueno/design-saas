@@ -37,7 +37,7 @@ export default function Features() {
             {/* Avatars */}
             <div className="aspect-video flex items-center justify-center">
               {/* <Image src={path} alt="Caminho" className="size-full p-4" /> */}
-              <PathIcon className="size-full p-4 stroke-diesel-500" />
+              <PathIcon className="size-full p-4 stroke-diesel-500" /> 
             </div>
           </FeatureCard>
           {/* Feature card 2 */}
