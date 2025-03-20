@@ -28,7 +28,7 @@ export default function Hero() {
         <form className="flex border border-diesel-500/30 rounded-full p-2 mt-8 max-w-lg mx-auto ">
           <input
             type="email"
-            placeholder="Informe seu email"
+            placeholder="envie seu email"
             className="bg-transparent pl-4 md:flex-1 w-full placeholder:text-stone-400 outline-none"
           />
           <Button
