@@ -23,7 +23,7 @@ export default function Navbar() {
       <section className="py-4 lg:py-8 fixed w-full top-0 z-50">
         <div className="container max-w-5xl">
           <div className="border border-diesel-500/50 rounded-[27px] md:rounded-full bg-stone-200/70 backdrop-blur">
-            <div className="grid grid-cols-2 lg:grid-cols-3 p-2 px-4 md:pr-2 items-center">
+            <div className="grid grid-cols-2 lg:grid-cols-3 md:grid-cols-3 p-2 px-4 md:pr-2 items-center">
               <div>
                 <a href="#hero">
                   <Image
