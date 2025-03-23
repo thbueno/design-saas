@@ -30,7 +30,7 @@ export default function Features() {
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-4 lg:grid-cols-3">
           {/* Feature card 1 */}
           <FeatureCard
-            title="Precisão no ambiente Digital"
+            title="Precisão no universo Digital"
             description="Consultoria Estratégica com resultados que convertem em negócios reais e comunidades engajadas com seu conteúdo"
             className="col-span-2 lg:col-span-1 group"
           >
