@@ -11,7 +11,7 @@ const features = [
   "Video Production",
   "Websites",
   "apps",
-  "AI Agents",
+  "AI Tools",
   "estratégia online",
 ];
 
