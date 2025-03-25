@@ -15,7 +15,6 @@ const features = [
   "estratégia online",
   "SaaS",
   "Aplicações Web",
-  "SEO",
 ];
 
 export default function Features() {
