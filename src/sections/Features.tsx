@@ -9,10 +9,13 @@ const features = [
   "Social Media",
   "Branding",
   "Video Production",
-  "Websites",
+  "Sites",
   "apps",
   "AI Tools",
   "estratégia online",
+  "SaaS",
+  "Aplicações Web",
+  "SEO",
 ];
 
 export default function Features() {
@@ -37,7 +40,7 @@ export default function Features() {
             {/* Avatars */}
             <div className="aspect-video flex items-center justify-center">
               {/* <Image src={path} alt="Caminho" className="size-full p-4" /> */}
-              <PathIcon className="size-full p-4 stroke-diesel-500" /> 
+              <PathIcon className="size-full p-4 stroke-diesel-500" />
             </div>
           </FeatureCard>
           {/* Feature card 2 */}
