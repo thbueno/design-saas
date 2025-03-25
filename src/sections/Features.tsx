@@ -12,7 +12,7 @@ const features = [
   "Sites",
   "apps",
   "AI Tools",
-  "estratégia online",
+  "estratégia digital",
   "SaaS",
   "Aplicações Web",
 ];
