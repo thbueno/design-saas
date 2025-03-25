@@ -52,7 +52,7 @@ export default function Features() {
           </FeatureCard>
           {/* Feature card 3 */}
           <FeatureCard
-            title="Sites inovadores e aplicativos intuitivos"
+            title="Sites e aplicativos inovadores"
             description="Elaboramos com dedicação cada detalhe, desde a navegação intuitiva até as interfaces visualmente impressionantes"
             className="col-span-2 md:col-start-2 lg:col-span-1 lg:col-start-auto group"
           >
