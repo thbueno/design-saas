@@ -11,7 +11,7 @@ const features = [
   "Video Production",
   "Sites",
   "apps",
-  "AI Tools",
+  "Inteligência Artificial",
   "estratégia digital",
   "SaaS",
   "Aplicações Web",
