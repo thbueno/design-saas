@@ -26,7 +26,7 @@ export default function Features() {
         </div>
         <h2 className="text-6xl font-medium text-center mt-6 max-w-2xl mx-auto">
           especialistas em{" "}
-          <span className="text-diesel-500 font-curve">fortalecer</span> marcas
+          <span className="text-diesel-500 font-curve">fortalecer</span> brands
         </h2>
         {/* Features grid */}
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-4 lg:grid-cols-3">
