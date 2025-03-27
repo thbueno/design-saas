@@ -5,14 +5,17 @@ import PathIcon from "@/components/PathIcon";
 import Tag from "@/components/Tag";
 
 const features = [
-  "identidade visual",
-  "Social Media",
+  "Identidade Visual",
   "Branding",
-  "Video Production",
+  "Produção Audiovisual",
+  "Social Media",
+  "Marking Digital",
+  "SEO",
+  "E-commerce",
   "Sites",
-  "apps",
-  "Inteligência Artificial",
-  "estratégia digital",
+  "apps mobile",
+  "IA Generativa",
+  "Deep Learning",
   "SaaS",
   "Aplicações Web",
 ];
