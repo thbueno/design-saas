@@ -47,8 +47,8 @@ export default function Features() {
           </FeatureCard>
           {/* Feature card 2 */}
           <FeatureCard
-            title="Design cativante em todas as plataformas"
-            description="sua marca no centro das atenções com uma identidade visual exclusiva, instantaneamente reconhecível e consistentemente engajante em todas as principais aplicações digitais."
+            title="Design engajante em todas as plataformas"
+            description="sua marca no centro das atenções com uma identidade visual exclusiva, instantaneamente reconhecível e consistentemente cativante em todas as principais aplicações digitais."
             className="col-span-2 lg:col-span-1 group"
           >
             <div className="aspect-video flex items-center justify-center">
