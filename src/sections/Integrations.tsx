@@ -64,7 +64,7 @@ export default function Integrations() {
             </h2>
             <p>
               Use as{" "}
-              <span className="font-black text-diesel-500">
+              <span className="font-black text-xl text-diesel-500">
                 inteligências artificiais
               </span>{" "}
               mais eficentes do mercado com proposito e objetivo bem
