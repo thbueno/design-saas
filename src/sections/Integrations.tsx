@@ -62,7 +62,7 @@ export default function Integrations() {
               preveja, <span className="font-light italic">analise</span>,{" "}
               <span className="text-diesel-500 font-curve">otimize</span>
             </h2>
-            <p>
+            <p className="ttext-xl text-stone-500 mt-8 max-w-xl">
               Use as{" "}
               <span className="font-black text-xl text-diesel-500">
                 inteligências artificiais
