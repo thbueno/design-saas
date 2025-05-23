@@ -59,8 +59,8 @@ export default function Integrations() {
             </div>
 
             <h2 className="text-6xl font-medium mt-6">
-              preveja, <span className="font-light italic">analise</span>, otimize{" "}
-              <span className="text-diesel-500 font-curve">com AI agents</span>
+              preveja, <span className="font-light italic">analise</span>, otimize com<br />
+              <span className="text-diesel-500 font-curve">AI agents</span>
             </h2>
             <p className="text-xl text-stone-500 mt-8 max-w-xl">
               Use as{" "}
