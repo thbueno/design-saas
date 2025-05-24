@@ -28,7 +28,7 @@ export default function Features() {
           <Tag>Serviços</Tag>
         </div>
         <h2 className="text-5xl font-medium text-center mt-6 max-w-2xl mx-auto">
-          Nossa{" "}
+          nossa{" "}
           <span className="text-diesel-500 font-curve">expertise</span>
         </h2>
         {/* Features grid */}
