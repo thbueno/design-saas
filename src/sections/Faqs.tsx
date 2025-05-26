@@ -40,7 +40,7 @@ export default function Faqs() {
         <div className="flex justify-center items-center">
           <Tag>valores</Tag>
         </div>
-        <h2 className="text-6xl font-medium mt-6 text-center max-w-xl mx-auto">
+        <h2 className="text-5xl font-medium mt-6 text-center max-w-xl mx-auto">
           nossos <span className="text-diesel-500 font-curve">valores</span>
         </h2>
         <div className="flex flex-col gap-6 mt-12 max-w-xl mx-auto">
