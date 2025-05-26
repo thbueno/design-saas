@@ -28,8 +28,8 @@ export default function Features() {
           <Tag>Serviços</Tag>
         </div>
         <h2 className="text-6xl font-medium text-center mt-6 max-w-2xl mx-auto">
-          Um conjunto de{" "}
-          <span className="text-diesel-500 font-curve">serviços</span> completo
+          Nossa{" "}
+          <span className="text-diesel-500 font-curve">expertise</span>
         </h2>
         {/* Features grid */}
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-4 lg:grid-cols-3">
