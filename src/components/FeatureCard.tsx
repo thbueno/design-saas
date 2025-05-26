@@ -16,7 +16,7 @@ export default function FeatureCard(props: {
     >
       <div className="aspect-video">{children}</div>
       <h3 className="text-3xl font-medium mt-6">{title}</h3>
-      <p className="text-stone-500/50 mt-2">{description}</p>
+      <p className="text-stone-500/70 mt-2">{description}</p>
     </div>
   );
 }
